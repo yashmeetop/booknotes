@@ -35,20 +35,12 @@ body {
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
-    width: 100%; /* Ensures padding is included in the width */
+    width: 100%; 
   }
   
-  /* .heading styles */
+
   .heading {
-    /* width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #007BFF;
-    padding: 20px;
-    box-sizing: border-box; /* Ensures padding is included in the width */
-    /* color: white; /* Add contrast for visibility */
-    /* margin-bottom: 20px;   */
+ 
     display: flex;
     flex-direction: column;
     justify-content: center;
