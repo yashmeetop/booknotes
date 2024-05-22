@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book notes</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="heading">
+            <h1 class="head1">Book notes</h1>
+            <h2 class="bir">Books i've Read</h2>
+
+        </div>
+        
+            <ul>
+             <% notes.forEach(note => {   %>
+                <div class="notes">
+                    <a href="<%= note.nlink %>">
+               <li class="title"><%= note.title %></li>
+               <li class="summary"><%=note.shortsummary%></li>      
+            </a>
+            </div>         
+            <% }); %>
+        </ul> 
+       
+    </div>
+</body>
+
+</html>
