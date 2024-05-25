@@ -12,9 +12,7 @@
     <div class="content">
         <div class="heading">
             <h1 class="head1">Book notes</h1>
-            <a href="/new"><h3>Create note</h3></a>
             <h2 class="bir">Books i've Read</h2>
-
 
         </div>
         
@@ -23,11 +21,12 @@
                 <div class="notes">
                     <a href="<%= note.id %>">
                <li class="title"><%= note.title %></li>
-               <li class="summary"><%=note.shortsummary%></li>      
+               <li class="summary"><%=note.shortsummary%></li>
+               <li class="para"><%=note.content%></li>      
             </a>
             </div>         
             <% }); %>
-        </ul> 
+            </ul>
        
     </div>
 </body>
